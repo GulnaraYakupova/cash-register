@@ -1,43 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>My Store Cash</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <svg display="none"><symbol id="icon-box" viewBox="0 0 150 150"><path d="m109.21 52.21-13.27-3.24-4.52-1.1-16.42-4-34.21 8.34v45.58l34.21 8.34 34.21-8.34z" fill="#fcd462"/><path d="m109.21 52.21v45.58l-34.21 8.34v-45.58l17.1-6.92z" fill="#e0b85c"/><path d="m40.79 52.21v45.58l34.21 8.34v-45.58l-17.1-6.92z" fill="#efc660"/><path d="m75 43.87-34.21 8.34 34.21 8.34 34.21-8.34z" fill="#fcd462"/><path d="m86.4 46.65-34 8.39v12.41l9.55 2.6-.12-12.71 34.11-8.37z" fill="#ebf0f3"/><g fill="#3a556a"><path d="m49.77 85.44-2.9-3.79-2.78 3.17 1.77.2.02 11.14 2.05.38-.02-11.31z"/><path d="m57.25 86.24-3.21-3.98-3.05 3.31 1.95.21.07 11.69 2.26.41-.08-11.86z"/></g></symbol><symbol id="icon-credit-card" viewBox="0 0 464 464"><path d="m464 95v274c0 17.7-14.3 32-32 32h-400c-17.7 0-32-14.3-32-32v-274c0-17.7 14.3-32 32-32h400c17.7 0 32 14.3 32 32z" fill="#fe4f60"/><path d="m464 95v24.8c0 9.4-8 16-15.2 16-168 8.3-299.2 108.9-354.1 254.9-2.3 6.2-8.3 10.4-15 10.4h-47.7c-17.7 0-32-14.3-32-32v-274.1c0-17.7 14.3-32 32-32h400c17.7 0 32 14.3 32 32z" fill="#ff6d7a"/><path d="m0 135h464v68h-464z" fill="#42434d"/><path d="m453 135c-9.9 3.2-108.6-1.7-211.3 67.8-.4.3 10.9.2-241.7.2v-68z" fill="#4d4e59"/><g fill="#fff"><path d="m132 286h-67c-4.4 0-8-3.6-8-8s3.6-8 8-8h67c4.4 0 8 3.6 8 8s-3.6 8-8 8z"/><path d="m132 336h-67c-4.4 0-8-3.6-8-8s3.6-8 8-8h67c4.4 0 8 3.6 8 8s-3.6 8-8 8z"/></g></symbol><symbol id="icon-search1" viewBox="0 0 512 512"><g><path d="m175.614 282.421h90v25h-90z" fill="#83a3ab" transform="matrix(.707 -.707 .707 .707 -143.924 242.378)"/><path d="m168.543 280.35h90v15h-90z" fill="#93b7c0" transform="matrix(.707 -.707 .707 .707 -140.996 235.307)"/><path d="m66.192 403.381-53.033 95.46c17.545 17.545 46.094 17.546 63.64 0l21.213-21.213z" fill="#93b7c0"/><path d="m34.373 413.988-21.213 21.213c-17.546 17.546-17.545 46.094 0 63.64l74.246-74.246z" fill="#acd5df"/><path d="m98.012 477.627 142.048-142.047-31.82-31.82-92.237 49.811-49.811 92.237z" fill="#3a6fd8"/><path d="m20.863 336.374h200.885v45h-200.885z" fill="#3b88f5" transform="matrix(.707 -.707 .707 .707 -218.232 190.888)"/><path d="m463.526 48.474-175.539 58.513-58.513 175.539c64.632 64.632 169.421 64.632 234.052 0s64.632-169.42 0-234.052z" fill="#93b7c0"/><path d="m229.474 48.474c-64.632 64.632-64.632 169.421 0 234.052l234.052-234.052c-64.632-64.632-169.42-64.632-234.052 0z" fill="#acd5df"/><path d="m421.1 90.9-111.9 37.3-37.3 111.9c41.2 41.2 107.999 41.2 149.2 0s41.2-107.999 0-149.2z" fill="#c4f3ff"/><path d="m271.9 90.9c-41.2 41.2-41.2 107.999 0 149.2l149.2-149.2c-41.201-41.2-107.999-41.2-149.2 0z" fill="#fff"/></g></symbol></svg>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

@@ -1,0 +1,23 @@
+.products-item {
+  padding:15px;
+  border-bottom: 1px solid black;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-item:last-child {
+  margin-bottom: 50px;
+}
+
+.products-item__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-item__amount {
+  display: flex;
+  align-items: center;
+}
+

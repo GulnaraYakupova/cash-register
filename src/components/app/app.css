@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 767px;
+  margin: 0 auto;
+  min-height: 100%;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.app ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
