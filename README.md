@@ -7,6 +7,8 @@ you can:
 - search products in storage
 - sell products by cleaning receipt
 
+### <a href='https://cash-register-gulnarayakupova.herokuapp.com/'>To see online</a>
+
 ### `npm start`
 
 default port: 8080
