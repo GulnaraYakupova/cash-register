@@ -13,4 +13,6 @@ you can:
 
 default port: 8080
 
+Open online [https://cash-register-gulnarayakupova.herokuapp.com/](https://cash-register-gulnarayakupova.herokuapp.com/)
+
 
